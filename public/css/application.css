@@ -1,0 +1,101 @@
+#container {
+  margin: 20px auto;
+  width: 400px;
+  padding: 20px;
+  position: relative;
+
+}
+
+body {
+  background: url(/images/CorkBoard.jpg) no-repeat center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  background: url(/images/fabric-edge-edited.png) no-repeat top left fixed;
+  height: 200px;
+  font-family: courier;
+  font-size: 30px;
+}
+
+nav a {
+  margin-left: 30px;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  width: 400px;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+
+}
+
+nav ul li{
+  display: inline;
+  float: left;
+
+}
+
+nav ul li a {
+  font-size: 40px;
+}
+
+.content{
+  background: url(/images/post_it_pink.png) no-repeat;
+  background-size: 400px 400px;
+  height: 400px;
+  width: 400px;
+/*  clear: both;*/
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+#login_form .content {
+  font-size: 22px;
+  padding-top: 6px;
+}
+
+li {
+  list-style-type: none;
+  text-align: left
+}
+
+.content ul li a {
+  text-decoration: none;
+  font-family: 'Londrina Solid', cursive;
+  color: #f7c82b;
+}
+
+.content ul li a:hover {
+  color: #b0e160;
+}
+
+#game .content {
+  font-size: 11px;
+  font-family: 'Londrina Solid', cursive;
+  padding-top: 50px;
+}
+
+#game .content .round {
+  width: 300px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.content #scores {
+  width: 350px;
+  padding-top: 90px;
+  padding-left: 30px;
+}

@@ -1,0 +1,15 @@
+<div class="welcome">
+  <div class="content">
+    <br>
+    <h2 class="user_welcome"id="welcome_user">Welcome, <%= @user.username %>!</h2>
+    <div id="dren_decks"></div>
+    <div class="decks">
+      <h4> choose a game: <h4>
+    	<ul>
+    	  <% @decks.each do |deck| %>
+    	  <li><a href="/rounds?deck_id=<%= deck.id %>"><%=deck.name%></a></li>
+    	  <% end %>
+    	</ul>
+    </div>
+  </div> <!-- end div content -->
+</div>
